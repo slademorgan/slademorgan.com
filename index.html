@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>slade morgan</title>
+<meta name="description" content="Slade Morgan: artist, musician and sound practitioner in Zurich.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Egyptian+Hieroglyphs&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="p-home">
+<header class="site-header">
+  <div class="wrap">
+    <a class="name" href="index.html">Slade Morgan</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="sound.html">Sound</a></li>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="intro">
+    <div class="wrap">
+      <p>artist, musician and sound practitioner. <em class="wave">swimming in sound.</em></p>
+    </div>
+  </section>
+
+  <section class="works" aria-label="What I do">
+    <div class="wrap">
+      <article class="work">
+        <div class="pic ripple"><span class="ring"></span><span class="ring r2"></span><span class="ring r3"></span><img src="img/sound-tile.jpg" alt="Crystal singing bowls and candles laid out for a sound bath"></div>
+        <h2>Sound</h2>
+        <p>Sound baths in studios, in nature, for teams and one to one. A practice of deep listening.</p>
+        <a class="btn" href="sound.html">Discover</a>
+      </article>
+      <article class="work">
+        <div class="pic cat" aria-hidden="false"><img class="cat-head" src="img/cat-head.png" alt="Slade's painted cat, wearing a crown"><img class="cat-crown" src="img/cat-crown.png" alt=""></div>
+        <h2>Art</h2>
+        <p>Colourful, layered paintings full of life. Originals and prints available on request.</p>
+        <a class="btn" href="art.html">Discover</a>
+      </article>
+      <article class="work">
+        <div class="pic record"><div class="vinyl"><img src="img/record-label.jpg" alt="A spinning record with a sunset as its label"></div><span class="arm"></span></div>
+        <h2>Music</h2>
+        <p>Radio shows, mixes and releases, from ambient journeys to things you can dance to.</p>
+        <a class="btn" href="music.html">Listen</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="listen">
+    <div class="wrap pond">
+      <button class="ghost-fish" type="button" data-play="cat" aria-label="play music for the common house cat sunbathing in winter">
+        <img class="gf-body gf-catimg" src="img/cat-play.png" alt="">
+        <svg class="gf-cloud" viewBox="0 0 120 70" aria-hidden="true">
+          <path d="M28 58 H98 a18 18 0 0 0 0-36 a26 26 0 0 0-48-8 a20 20 0 0 0-28 18 a13 13 0 0 0 6 26 Z"/>
+          <g class="gf-wave"><rect x="40" y="36" width="4" height="12" rx="2"/><rect x="48" y="30" width="4" height="18" rx="2"/><rect x="56" y="26" width="4" height="22" rx="2"/><rect x="64" y="32" width="4" height="16" rx="2"/><rect x="72" y="28" width="4" height="20" rx="2"/><rect x="80" y="35" width="4" height="13" rx="2"/></g>
+        </svg>
+        <span class="gf-play" aria-hidden="true">▶</span>
+      </button>
+    </div>
+  </section>
+
+  <p class="glyphs" aria-hidden="true">𓆝 𓆟 𓆞 𓆝 𓆟</p>
+
+<section class="contact band" id="contact">
+  <div class="wrap">
+    <div>
+      <h2 class="h-l">Let's create something together.</h2>
+      <p class="lead">Book a sound bath, ask about a painting or a print, or just say hello. I'll get back to you within two days.</p>
+    </div>
+    <form data-contact novalidate>
+      <div class="field">
+        <label for="contact-name">Name</label>
+        <input id="contact-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="contact-email">Email</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field full">
+        <label for="contact-reason">I'm getting in touch about</label>
+        <select id="contact-reason" name="reason">
+            <option selected>Booking a sound bath</option>
+            <option>Buying a painting or print</option>
+            <option>Music</option>
+            <option>Something else</option>
+        </select>
+      </div>
+
+      <div class="field full">
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" required></textarea>
+      </div>
+      <div class="send">
+        <button class="btn" type="submit">Send</button>
+        <p class="note" aria-live="polite"></p>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Slade Morgan · Zurich <span class="g">𓆝</span></span>
+    <ul>
+      <li><a href="https://instagram.com/slademorgan" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://instagram.com/artifactsbyslade" target="_blank" rel="noopener">Art on Instagram</a></li>
+      <li><a href="https://soundcloud.com/sladeontheark" target="_blank" rel="noopener">SoundCloud</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="main.js"></script>
+<script src="whimsy.js"></script>
+<script src="de.js"></script>
+<script src="lang.js"></script>
+</body>
+</html>
